@@ -1,7 +1,55 @@
-body {
-    background: lightyellow;
-    font: 18px Arial, sans-serif;
+body{
+  padding: 20px 0;
+  font-family: Monospace;
 }
-h1 {
-    color: orange;
+
+.container{
+  width: 750px;
+}
+
+.header, .marketing, .portfolio, .contact {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 30px;
+}
+
+.header {
+    padding-bottom: 15px;
+}
+
+.marketing, .portfolio, .contact {
+    padding-bottom: 40px;
+}
+
+.navbar-text {
+    margin-top: 10px;
+}
+
+.navbar-text a{
+    color: inherit;
+}
+
+.jumbotron {
+  background: url("https://subtlepatterns.com/patterns/swirl_pattern.png") repeat;
+}
+
+.marketing, .portfolio {
+  margin-top:50px;
+  text-align: center;
+}
+
+.marketing h4{
+  margin-bottom:20px;
+}
+
+.portfolio h4, .contact h4{
+  margin-bottom:50px;
+}
+
+.contact h4{
+  text-align: center;
+}
+
+.glyphicon {
+  font-size: 42px;
+  margin-bottom: 20px;
 }
